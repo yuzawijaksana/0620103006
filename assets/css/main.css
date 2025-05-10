@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    align-items: center; /* Center items vertically */
+    max-width: 500px;
+    position: relative;
+    gap: 10px; /* Add spacing between elements */
+}
+
+ul li .form-check {
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+}
+
+ul li .form-check-label {
+    flex-grow: 1; /* Allow the text box to take up remaining space */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+ul li a {
+    flex-shrink: 0; /* Prevent the button from shrinking */
+    margin-left: auto; /* Push the button to the far right */
+}
+
+ul li .task-title {
+    flex-grow: 1; /* Allow the task title to take up available space */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word; /* Break long words if necessary */
+    white-space: normal; /* Allow text to wrap */
+    overflow: hidden; /* Prevent content overflow */
+}
