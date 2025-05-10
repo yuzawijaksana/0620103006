@@ -4,12 +4,12 @@
 Aplikasi sederhana  berbasis PHP untuk mencatat tugas harian.
 
 ## Fitur
-- Tampah tugas
-- Tandai tugas selesai
+- Tambah tugas
+- Tandai tugas sudah selesai
 - Hapus tugas
 
 ## Struktur folder
-- 'index.php' - Halaman utama
+- 'index.php' - Halaman utama to-do list
 - 'assets/' - file CSS/JS dan Bootstrap
 
 ## Cara Menjalankan
