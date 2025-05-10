@@ -9,12 +9,11 @@ Aplikasi sederhana  berbasis PHP untuk mencatat tugas harian.
 - Hapus tugas
 
 ## Struktur folder
-
 - 'index.php' - Halaman utama
-- 'assets/' - file CSS/JS jika ada
+- 'assets/' - file CSS/JS dan Bootstrap
 
 ## Cara Menjalankan
-1. Salin folder ke 'htdocs/'
+1. Salin folder ke 'htdocs/todolist'
 2. Jalankan XAMPP dan buka di 'http://localhost/todolist'
 
 ## Kontributor 
