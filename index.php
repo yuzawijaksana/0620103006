@@ -63,7 +63,7 @@
 <body class="text-center">
     <div class="container">
         <div class="card-header text-center">
-            <h1>Tugas Baru</h1>
+            <h1>Daftar To-do List</h1>
         </div>
         <div class="card-body">
             <form action="index.php" method="POST">
