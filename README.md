@@ -1,4 +1,4 @@
-# Aplikasi To-Do List 
+# Aplikasi To-Do List Mengunakan PHP, XAMPP(Apache), dan Bootstrap
 
 # Deskripsi
 Aplikasi sederhana  berbasis PHP untuk mencatat tugas harian.
@@ -14,7 +14,7 @@ Aplikasi sederhana  berbasis PHP untuk mencatat tugas harian.
 
 ## Cara Menjalankan
 1. Salin folder ke 'htdocs/todolist'
-2. Jalankan XAMPP dan buka di 'http://localhost/todolist'
+2. Jalankan XAMPP, Start Apache dan buka di 'http://localhost/todolist'
 
 ## Kontributor 
 - Yuza Wijaksana (https://github.com/yuzawijaksana)
