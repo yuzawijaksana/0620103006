@@ -16,7 +16,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['task'])) {
         $newTask = [
             "id" => count($tasks) + 1,
-            "title" => htmlspecialchars($_POST['task']),
+            "title" => $_POST['task'],
             "status" => "belum"
         ];
         $tasks[] = $newTask;
